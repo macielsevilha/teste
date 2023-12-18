@@ -18203,7 +18203,7 @@ svg.btn_create_sp {
 }
 
 .chat__msg-avatar.img_no_blur {
-  background: url(../img/ava_c.png) no-repeat center center / cover;
+  background: url(../img/ava_c.png) no-repeat center center / cover !important;
 }
 
 .chat__msg-message.system_mess span {
