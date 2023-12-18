@@ -21,8 +21,11 @@
   z-index: 10;
 }
 
+.mobile-navbar {
+  display: none !important;
+}
 @media only screen and (max-width: 1725px) {
-  
+
   .games {
     grid-template-columns: repeat(4, 1fr) !important;
 }
@@ -36,7 +39,11 @@
   
 }
 @media only screen and (max-width: 1125px) {
- 
+  .more--opened .mobile-navbar {
+    display: flex !important;
+    margin-top: 75px;
+    z-index: 10;
+  }
   .games {
     grid-template-columns: repeat(4, 1fr) !important;
 }
